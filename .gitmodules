@@ -4,3 +4,6 @@
 [submodule "zsh"]
 	path = zsh
 	url = git@github.com:markheramis/.zsh.git
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/markheramis/nvim.git
