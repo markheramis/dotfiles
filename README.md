@@ -12,6 +12,7 @@ This repository provides a centralized location to store, version, and manage yo
 
 | Configuration | Description | Documentation |
 |---------------|-------------|---------------|
+| **nvim** | Neovim editor configuration | [README](./nvim/README.md) |
 | **tmux** | Terminal multiplexer configuration | [README](./tmux/README.md) |
 | **zsh** | Shell configuration and setup | [README](./zsh/README.md) |
 
@@ -37,6 +38,7 @@ Each configuration automatically backs up your existing files before installatio
 ```
 dotfiles/
 ├── README.md      # This file
+├── nvim/          # Neovim editor configuration
 ├── tmux/          # Terminal multiplexer configuration
 └── zsh/           # Shell configuration
 ```
