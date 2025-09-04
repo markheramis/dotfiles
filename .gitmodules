@@ -7,3 +7,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/markheramis/nvim.git
+[submodule "wezterm"]
+	path = wezterm
+	url = https://github.com/markheramis/wezterm.git
