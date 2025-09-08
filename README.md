@@ -21,6 +21,20 @@ This repository provides a centralized location to store, version, and manage yo
 - [Git](https://git-scm.com/downloads)
 - Unix-like system (Linux, macOS, or Windows with WSL)
 
+## Initial Setup
+
+This repository uses git submodules to manage the individual configuration repositories. Before installing any configurations, you need to initialize the submodules:
+
+```bash
+# Clone the repository with submodules
+git clone --recursive https://github.com/markheramis/dotfiles.git
+
+# Or if you've already cloned the repository
+git submodule update --init --recursive
+```
+
+This will download all the configuration files from their respective repositories into the appropriate directories.
+
 ## Installation
 
 Each configuration can be installed independently. Navigate to the desired configuration directory and run the installation script:
