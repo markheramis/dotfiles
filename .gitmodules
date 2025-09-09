@@ -10,3 +10,6 @@
 [submodule "wezterm"]
 	path = wezterm
 	url = https://github.com/markheramis/wezterm.git
+[submodule "ghostty"]
+	path = ghostty
+	url = https://github.com/markheramis/ghosty-terminal-config.git
