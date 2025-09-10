@@ -13,3 +13,6 @@
 [submodule "ghostty"]
 	path = ghostty
 	url = https://github.com/markheramis/ghosty-terminal-config.git
+[submodule "alacritty"]
+	path = alacritty
+	url = https://github.com/markheramis/alacritty-terminal-configuration.git
